@@ -1,0 +1,41 @@
+.product{
+    display: flex;
+    flex-direction: column;
+background-color:white;
+box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.2);
+border: 10px black;
+}
+.img{
+    position: relative;
+
+}
+.price{
+    display: flex;
+    justify-content: column;
+}
+.discount{
+    text-decoration: line-through;
+}
+.btn{
+    
+    background-color: crimson;
+    color: aliceblue;
+    width: 80%;
+    height: 20%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn:hover{
+    background-color: orange;
+    height: 25%;
+    color: black;
+    border: 50px;
+}
+h1{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
